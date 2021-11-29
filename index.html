@@ -129,12 +129,14 @@
   
 <audio loop src="Music/Taylor Swift - Love Story.mp3" id="audio" autoplay preload="auto">该浏览器不支持audio属性</audio>
   
-document.addEventListener('touchstart', function () {
+<script>
+  document.addEventListener('touchstart', function () {
     function audioAutoPlay() {
         var audio = document.getElementById('audio');
             audio.play();
     }
     audioAutoPlay();
 });
+ </script>
   
 </html>
